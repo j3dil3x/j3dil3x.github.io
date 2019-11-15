@@ -35,9 +35,6 @@ $(window).resize(function(){
   $('.slide').css({'height' : `${$(window).height()}px`});
 });
 $('section').css({'max-width' : `${$('window').width()}`})
-$('.wrap').Lazy();
-$('.wrap0').Lazy();
-$('.wrap2').Lazy();
 $(".list1").click(function(){
 $(".wrap0").slideDown(function(){
   $('.slider').slick('slickPlay');
